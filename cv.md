@@ -109,4 +109,4 @@ July 2021 - Present
 ## Languages
 __Russian__ - _native_
 
-__English__ - _B1_
+__English__ - _B2_
