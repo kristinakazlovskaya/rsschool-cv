@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&family=Tenor+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1c1c1c;
+}
+
+.resume {
+  padding: 30px;
+  width: 700px;
+  margin: 30px auto;
+  border: solid 1px #f3f4ee;
+  background-color: #f3f4ee;
+}
+
+.main_header {
+  border-bottom: solid 2px #7f807d;
+  display: flex;
+  flex-flow: row nowrap;
+  padding-bottom: 10px;
+}
+
+.main_header_name {
+  text-transform: uppercase;
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 12px;
+  flex: 1 1 50%;
+  font-weight: 200;
+  color: #1c1c1c;
+}
+
+.main_header_position {
+  text-transform: uppercase;
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 12px;
+  text-align: right;
+  flex: 1 1 50%;
+  font-weight: 200;
+  color: #1c1c1c;
+}
+
+main {
+  padding-top: 25px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+main > header {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 25px;
+  flex: 1 1 100%;
+}
+
+.profile {
+  margin-left: 10px;
+  flex: 1 1 20%;
+}
+
+.info {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  padding-left: 30px;
+  flex: 1 1 80%;
+}
+
+hgroup {
+  flex: 1 1 100%;
+}
+
+.resume_name {
+  text-transform: uppercase;
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 36px;
+  text-align: right;
+  font-weight: 200;
+  padding-top: 5px;
+  letter-spacing: 4px;
+  color: #1c1c1c;
+}
+
+.resume_position {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #1c1c1c;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.about {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #1c1c1c;
+  text-align: right;
+  flex: 1 1 100%;
+}
+
+.left {
+  flex: 1 1 50%;
+  border-top: solid #7f807d 1px;
+  border-right: solid #7f807d 1px;
+  border-bottom: solid #7f807d 1px;
+  padding: 25px 10px;
+}
+
+.right {
+  flex: 1 1 50%;
+  border-top: solid #7f807d 1px;
+  padding: 25px 10px;
+  border-bottom: solid #7f807d 1px;
+}
+
+.education_header,
+.code_examples_header {
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 23px;
+  font-weight: 200;
+  color: #1c1c1c;
+  margin-bottom: 15px;
+}
+
+.education_info,
+.skills_info,
+.languages_info {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  color: #1c1c1c;
+}
+
+.skills_info {
+  list-style-position: inside;
+}
+
+.skills_header,
+.languages_header {
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 23px;
+  font-weight: 200;
+  color: #1c1c1c;
+  margin: 15px 0 15px 0;
+}
+
+.code_examples_link {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  color: #1c1c1c;
+}
+
+a:hover {
+  cursor: pointer;
+  font-weight: 900;
+  color: #000000;
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.contacts {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  flex: 1 1 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  padding: 10px 0 20px 0;
+  color: #1c1c1c;
+  list-style: none;
+}
+
+.phone {
+  flex: 1;
+}
+
+.email {
+  text-align: center;
+  flex: 1;
+}
+
+.github {
+  flex: 1;
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.about_school {
+  flex: 1 1 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.school_logo {
+  flex: 1;
+}
+
+.year {
+  flex: 1;
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 16px;
+  padding-left: 10px;
+  text-align: right;
+  color: #1c1c1c;
+}
