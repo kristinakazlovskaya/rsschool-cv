@@ -178,7 +178,7 @@ footer {
   font-size: 16px;
   padding: 10px 0 20px 0;
   color: #1c1c1c;
-  list-style: none;
+  list-style-type: none;
 }
 
 .phone {
