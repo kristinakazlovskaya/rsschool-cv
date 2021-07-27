@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&family=Tenor+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&family=Tenor+Sans&display=swap");
 
 * {
   margin: 0;
@@ -27,7 +27,7 @@ body {
 
 .main_header_name {
   text-transform: uppercase;
-  font-family: 'Tenor Sans', sans-serif;
+  font-family: "Tenor Sans", sans-serif;
   font-size: 12px;
   flex: 1 1 50%;
   font-weight: 200;
@@ -36,12 +36,16 @@ body {
 
 .main_header_position {
   text-transform: uppercase;
-  font-family: 'Tenor Sans', sans-serif;
+  font-family: "Tenor Sans", sans-serif;
   font-size: 12px;
   text-align: right;
   flex: 1 1 50%;
   font-weight: 200;
   color: #1c1c1c;
+}
+
+.hidden {
+  display: none;
 }
 
 main {
@@ -50,7 +54,7 @@ main {
   flex-flow: row wrap;
 }
 
-main > header {
+article {
   display: flex;
   flex-flow: row nowrap;
   margin-bottom: 25px;
@@ -76,7 +80,7 @@ hgroup {
 
 .resume_name {
   text-transform: uppercase;
-  font-family: 'Tenor Sans', sans-serif;
+  font-family: "Tenor Sans", sans-serif;
   font-size: 36px;
   text-align: right;
   font-weight: 200;
@@ -87,7 +91,7 @@ hgroup {
 
 .resume_position {
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
   color: #1c1c1c;
@@ -96,7 +100,7 @@ hgroup {
 }
 
 .about {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   color: #1c1c1c;
   text-align: right;
@@ -118,19 +122,19 @@ hgroup {
   border-bottom: solid #7f807d 1px;
 }
 
-.education_header, 
+.education_header,
 .code_examples_header {
-  font-family: 'Tenor Sans', sans-serif;
+  font-family: "Tenor Sans", sans-serif;
   font-size: 23px;
   font-weight: 200;
   color: #1c1c1c;
   margin-bottom: 15px;
 }
 
-.education_info, 
-.skills_info, 
+.education_info,
+.skills_info,
 .languages_info {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   line-height: 18px;
   color: #1c1c1c;
@@ -140,9 +144,9 @@ hgroup {
   list-style-position: inside;
 }
 
-.skills_header, 
+.skills_header,
 .languages_header {
-  font-family: 'Tenor Sans', sans-serif;
+  font-family: "Tenor Sans", sans-serif;
   font-size: 23px;
   font-weight: 200;
   color: #1c1c1c;
@@ -151,7 +155,7 @@ hgroup {
 
 .code_examples_link {
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   line-height: 18px;
   color: #1c1c1c;
@@ -174,7 +178,7 @@ footer {
   flex-flow: row nowrap;
   align-items: center;
   flex: 1 1 100%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   padding: 10px 0 20px 0;
   color: #1c1c1c;
@@ -213,9 +217,9 @@ a {
 
 .year {
   flex: 1;
-  font-family: 'Tenor Sans', sans-serif;
+  font-family: "Tenor Sans", sans-serif;
   font-size: 16px;
   padding-left: 10px;
   text-align: right;
   color: #1c1c1c;
-} 
+}
